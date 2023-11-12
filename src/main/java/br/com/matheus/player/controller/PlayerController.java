@@ -29,7 +29,7 @@ public class PlayerController {
         return playerService.getAlbumBy(pathDTO.getFolder());
     }
 
-    @GetMapping("/folders")
+    @GetMapping("/folderss")
     public List<String> getAllFolders() {
         return playerService.getAllFolders();
     }
